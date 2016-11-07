@@ -54,7 +54,6 @@ ul.topnav li.right {
 .comcontentblock {
 	margin:16px;
 }
-
 .commintitle h1{
 	color:rgb(0,128,255);
     text-align:left;
@@ -63,13 +62,21 @@ ul.topnav li.right {
 	padding:8px 16px;
 	margin:8px;
 }
-
+.textcontentblock h2{
+	color:rgb(255,255,255);
+    text-align:left;
+	font-family:Arial;
+	font-weight:bold;
+	margin:8px;
+}
 .textcontentblock p{
 	color:rgb(255,255,255);
     text-align:left;
 	font-family:Arial;
 	font-weight:bold;
+	margin:8px;
 }
+
 /*
 	MAIN BUTTON STYLE
 */
