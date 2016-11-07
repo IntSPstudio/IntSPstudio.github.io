@@ -1,15 +1,48 @@
+<!--
+|==============================================================|
+Made by IntSPstudio
+ID: 530002002
+|==============================================================|
+-->
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>IntSPstudio</title>
 		<link id="content" rel="stylesheet" type="text/css" href="style/main_style.css">
+		<script src="event/main.js"></script>
 	</head>
 	<body>
+		<!-- TBAR MENU LINKS -->
 		<ul class="topnav">
-		  <li><a class="active" href="#home">Home</a></li>
-		  <li><a href="http://intspstudio.weebly.com/">Main</a></li>
-		  <li><a href="https://intspstudio.blogspot.fi/">Blog</a></li>
+			<li><a href="#" class="tablinks" onclick="openTab(event,'MainTab')">Main</a></li>
+			<li><a href="#" class="tablinks" onclick="openTab(event,'InfoTab')">Info</a></li>
+			<li><a href="#" class="tablinks" onclick="openTab(event,'AboutTab')">About</a></li>
 		</ul>
+		<!-- CONTENT -->
+		<div class="content">
+			<!-- MAIN -->
+			<div id="MainTab" class="tabcontent">
+				<div class="commintitle">
+					<h1>Main</h1>
+				</div>
+			</div>
+			<!-- INFO -->
+			<div id="InfoTab" class="tabcontent">
+				<div class="commintitle">
+					<h1>Info</h1>
+				</div>
+			</div>
+			<!-- ABOUT -->
+			<div id="AboutTab" class="tabcontent">
+				<div class="commintitle">
+					<h1>About</h1>
+				</div>
+				<div class="comcontentblock">
+					<a href="http://intspstudio.weebly.com/" class="mainbuttonstyle">Main Website</a>
+					<a href="https://intspstudio.blogspot.fi/" class="mainbuttonstyle">Blog</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
