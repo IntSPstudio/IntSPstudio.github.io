@@ -1,2 +1,1 @@
-# IntSPstudio.github.io
-Website
+# GitHub Website
