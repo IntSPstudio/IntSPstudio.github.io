@@ -1,7 +1,7 @@
 <!--
 |==============================================================|
 Made by IntSPstudio
-Version: 1.0.1.20161107
+Version: 1.0.2.20161118
 ID: 530002002
 |==============================================================|
 -->
@@ -9,110 +9,157 @@ ID: 530002002
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>IntSPstudio</title>
-		<link id="content" rel="stylesheet" type="text/css" href="style/main_style.css">
-		<script src="event/main.js"></script>
-	</head>
+		<title>ViMe</title>
+		<link id="menu" rel="stylesheet" type="text/css" href="main_style.css">
+		<script src="main.js"></script>
+ 	</head>
 	<body>
-		<!-- TBAR MENU LINKS -->
-		<ul class="topnav">
-			<li><a href="#Python" class="tablinks" onclick="openTab(event,'PythonTab')">Python</a></li>
-			<li><a href="#Html" class="tablinks" onclick="openTab(event,'HtmlTab')">Html</a></li>
-			<li><a href="#Computercraft" class="tablinks" onclick="openTab(event,'McComputerCraftTab')">Computercraft</a></li>
-			<li><a href="#Info" class="tablinks" onclick="openTab(event,'InfoTab')">Info</a></li>
-			<li><a href="#About" class="tablinks" onclick="openTab(event,'AboutTab')">About</a></li>
-		</ul>
+		<!-- LBAR MENU LINKS -->
+		<div class="menu">
+			<ul>
+				<li><a href="#toc" class="tablinks"><h3>Menu</h3></a></li>
+				<li><a href="#about" class="tablinks"><h3>About</h3></a></li>
+			</ul>
+		</div>
 		<!-- CONTENT -->
 		<div class="content">
-			<!-- MAIN -->
-			<div id="PythonTab" class="tabcontent">
-				<!-- PYTHON -->
-				<div class="commintitle">
-					<h1>Python</h1>
+			<div style="margin-left:20%;padding:1px 16px;">
+				<!-- ABOUT -->
+				<div id="about" class="tabcontent">
+					<div class="commintitle">
+						<h1>About</h1>
+					</div>
+					
+					<div class="otherlinks">
+						<ul>
+							<!-- GITHUB -->
+							<li><a href="https://github.com/IntSPstudio"  target="_blank" class="tablinks"><p>Github</p></a></li>
+							<!-- WEBSITE -->
+							<li><a href="http://intspstudio.weebly.com/"  target="_blank" class="tablinks"><p>Main website</p></a></li>
+							<!-- BLOG -->
+							<li><a href="https://intspstudio.blogspot.fi/"  target="_blank" class="tablinks"><p>Blog</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- MAIN MENU -->
+				<div id="toc" class="tabcontent">
+					<div class="commintitle">
+						<h1>Menu</h1>
+					</div>
+					
+					<div class="otherlinks">
+						<ul>
+							<li><a href="#it8c-library" class="tablinks"><p>Python: IT8c Library</p></a></li>
+							<li><a href="#python-backupengine" class="tablinks"><p>Python: Backup Engine</p></a></li>
+							<li><a href="#python-shutdowntimer" class="tablinks"><p>Python: Shutdown Timer</p></a></li>
+							<li><a href="#python-vslst" class="tablinks"><p>Python: VSLst</p></a></li>
+							<li><a href="#arduino" class="tablinks"><p>Arduino</p></a></li>
+							<li><a href="#html-vime" class="tablinks"><p>Html: ViMe</p></a></li>
+							<li><a href="#computercraft-vslst" class="tablinks"><p>Computercraft: VSLst</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- PYTHON: BACKUP ENGINE -->
+				<div id="python-backupengine" class="tabcontent">
+					<div class="commintitle">
+						<h1>Backup Engine</h1>
+						<img src="http://i.imgur.com/fJNPaTc.png" alt="SoftwarePicture">
+					</div>
+					
+					<div class="otherlinks">
+						<ul>
+							<!-- SOURCE CODE -->
+							<li><a href="http://bit.ly/2dzFjLP"  target="_blank" class="tablinks"><p>Source code</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- PYTHON: SHUTDOWNTIMER -->
+				<div id="python-shutdowntimer" class="tabcontent">
+					<div class="commintitle">
+						<h1>Shutdown Timer</h1>
+						<img src="http://i.imgur.com/czeuXKk.png" alt="SoftwarePicture">
+					</div>
+					
+					<div class="otherlinks">
+						<ul>
+							<!-- SOURCE CODE -->
+							<li><a href="http://bit.ly/2cJqGzD"  target="_blank" class="tablinks"><p>Source code</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- PYTHON: VSL ST -->
+				<div id="python-vslst" class="tabcontent">
+					<div class="commintitle">
+						<h1>Python VSLst</h1>
+					</div>
+					
+					<div class="otherlinks">
+						<ul>
+							<!-- SOURCE CODE -->
+							<li><a href="http://bit.ly/2ekqXQa"  target="_blank" class="tablinks"><p>String input to sha1</p></a></li>
+							<li><a href="http://bit.ly/2eCRaaH"  target="_blank" class="tablinks"><p>Read csv files</p></a></li>
+							<li><a href="http://bit.ly/2djOWe0"  target="_blank" class="tablinks"><p>All</p></a></li>
+						</ul>
+					</div>
 				</div>
 				<!-- IT8C LIBRARY -->
-				<div class="textcontentblock">
-					<h2>IT8c Library:</h2>
+				<div id="it8c-library" class="tabcontent">
+					<div class="commintitle">
+						<h1>IT8c Library</h1>
+					</div>
 					
-					<div class="comcontentblock">
-						<a href="http://bit.ly/2f5ja8z" target="_blank" class="mainbuttonstyle">Source code</a>
-						<a href="http://bit.ly/2fUnk2C" target="_blank" class="mainbuttonstyle">Wiki</a>
+					<div class="otherlinks">
+						<ul>
+							<!-- SOURCE CODE -->
+							<li><a href="http://bit.ly/2f5ja8z"  target="_blank" class="tablinks"><p>Source code</p></a></li>
+							<li><a href="http://bit.ly/2fUnk2C"  target="_blank" class="tablinks"><p>Wiki</p></a></li>
+						</ul>
 					</div>
 				</div>
-				<!-- BACKUP ENGINE -->
-				<div class="textcontentblock">
-					<h2>Backup engine:</h2>
+				<!-- ARDUINO -->
+				<div id="html-vime" class="tabcontent">
+					<div class="commintitle">
+						<h1>Arduino</h1>
+					</div>
 					
-					<div class="comcontentblock">
-						<img src="http://intspstudio.weebly.com/uploads/9/0/0/6/90060087/03-11-2016-backupengine_1_orig.png" alt="SoftwarePicture">
-						<h1></h1>
-						<a href="http://bit.ly/2dzFjLP" target="_blank" class="mainbuttonstyle">Source code</a>
+					<div class="otherlinks">
+						<ul>
+							<!-- ELECTRICITY METER -->
+							<li><a href="http://bit.ly/2fcrv8e"  target="_blank" class="tablinks"><p>Arduino Electricity Meter</p></a></li>
+						</ul>
 					</div>
 				</div>
-				<!-- SHUTDOWN TIMER -->
-				<div class="textcontentblock">
-					<h2>Shutdown Timer:</h2>
+				<!-- HTML VIME -->
+				<div id="html-vime" class="tabcontent">
+					<div class="commintitle">
+						<h1>ViMe</h1>
+					</div>
 					
-					<div class="comcontentblock">
-						<img src="http://intspstudio.weebly.com/uploads/9/0/0/6/90060087/03-11-2016-shutdowntimer_1_orig.png" alt="SoftwarePicture">
-						<h1></h1>
-						<a href="http://bit.ly/2cJqGzD" target="_blank" class="mainbuttonstyle">Source code</a>
+					<div class="otherlinks">
+						<ul>
+							<!-- SOURCE CODE -->
+							<li><a href="http://bit.ly/2dWowCj"  target="_blank" class="tablinks"><p>Source code</p></a></li>
+						</ul>
 					</div>
 				</div>
-				<!-- VISUAL STREET -->
-				<div class="textcontentblock">
-					<h2>VSLst:</h2>
-					
-					<div class="comcontentblock">
-						<a href="http://bit.ly/2djOWe0" target="_blank" class="mainbuttonstyle">All</a>
-						<a href="http://bit.ly/2ekqXQa" target="_blank" class="mainbuttonstyle">Input to sha1</a>
-						<a href="http://bit.ly/2eCRaaH" target="_blank" class="mainbuttonstyle">CSV Handling</a>
+				<!-- COMPUTERCRAFT: VSL ST -->
+				<div id="computercraft-vslst" class="tabcontent">
+					<div class="commintitle">
+						<h1>Computercraft VSLst</h1>
 					</div>
-				</div>
-			</div>
-			<!-- INFO -->
-			<div id="HtmlTab" class="tabcontent">
-				<div class="commintitle">
-					<h1>Html</h1>
-				</div>
-				<!-- VIME -->
-				<div class="textcontentblock">
-					<h2>ViMe</h2>
 					
-					<div class="comcontentblock">
-						<a href="http://bit.ly/2dWowCj" target="_blank" class="mainbuttonstyle">Source code</a>
+					<div class="otherlinks">
+						<ul>
+							<!-- DOOR LASER -->
+							<li><a href="http://bit.ly/2gruSLd"  target="_blank" class="tablinks"><p>DoorLaser</p></a></li>
+							<!-- TREE VAPORIZER -->
+							<li><a href="http://bit.ly/2g6dVCO"  target="_blank" class="tablinks"><p>Tree Vaporizer</p></a></li>
+							<!-- TOWER BUILDER -->
+							<li><a href="http://bit.ly/2g4PYLK"  target="_blank" class="tablinks"><p>Tower Builder</p></a></li>
+							<!-- ALL -->
+							<li><a href="http://bit.ly/2dnYX9W"  target="_blank" class="tablinks"><p>All scripts</p></a></li>
+						</ul>
 					</div>
-				</div>
-			</div>
-			<!-- COMPUTERCRAFT -->
-			<div id="McComputerCraftTab" class="tabcontent">
-				<!-- COMPUTER CRAFT -->
-				<div class="commintitle">
-					<h1>Computercraft</h1>
-				</div>
-				<!-- VISUAL STREET -->
-				<div class="textcontentblock">
-					<h2>VSLst:</h2>
-					
-					<div class="comcontentblock">
-						<a href="http://bit.ly/2ekqXQa" target="_blank" class="mainbuttonstyle">All</a>
-					</div>
-				</div>
-			</div>
-			<!-- INFO -->
-			<div id="InfoTab" class="tabcontent">
-				<div class="commintitle">
-					<h1>Info</h1>
-				</div>
-			</div>
-			<!-- ABOUT -->
-			<div id="AboutTab" class="tabcontent">
-				<div class="commintitle">
-					<h1>About</h1>
-				</div>
-				<div class="comcontentblock">
-					<a href="http://intspstudio.weebly.com/" class="mainbuttonstyle">Main Website</a>
-					<a href="https://intspstudio.blogspot.fi/" class="mainbuttonstyle">Blog</a>
 				</div>
 			</div>
 		</div>
