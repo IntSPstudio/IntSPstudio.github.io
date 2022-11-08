@@ -1,0 +1,61 @@
+/* 
+    |==============================================================|
+    Made by IntSPstudio
+    ID: 530002002
+    |==============================================================|
+*/
+body {
+    background-color: rgb(35, 35, 35);
+}
+.stcelinks , a {
+    color: #0080FF;
+    text-decoration: none;
+}
+.stcelinks a:hover {
+    color: #FF8000;
+    text-decoration: none;
+}
+.title1 {
+    color:white;
+    background-color: rgba(0,128, 255, 0.1);
+}
+.maincontent, .contentinfo {
+    background-color: rgba(0,0,0,0.2);
+}
+.contentinfo h1 {
+    color: white;
+}
+.textcontentblock {
+	background:rgba(0,0,0,0.3);
+}
+.maincontent h3, .maincontent p, .textcontentblock p {
+	color:white;
+}
+.title2 h1 {
+	background:rgba(0,0,0,0.3);
+	color:#0080FF;
+}
+.title2 h2 {
+    background:rgba(0,0,0,0.3);
+    color: #FF8000;
+}
+.otherlinks li a:hover:not(.active){
+    background-color:rgba(0,0,0,0.6);
+    color: #FF8000;
+}
+.otherlinks li a {
+	background-color:rgba(0,0,0,0.2);
+    color:white
+}
+.txrcontenta ul {
+	background-color:rgba(0,0,0,0.2);
+}
+.otherlinks ul {
+	background-color:rgba(0,0,0,0.2);
+}
+.otherlinks p{
+    color: white;
+}
+.tabcontent {
+    background-color: rgba(0,0,0,0.2);
+}
