@@ -6,6 +6,11 @@
 */
 body {
     background-color: rgb(35, 35, 35);
+    background-image: url('../img/ilogo.png'), url('../img/bgd_dark.png');
+    font-family: Arial;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 .stcelinks , a {
     color: #0080FF;
@@ -20,7 +25,7 @@ body {
     background-color: rgba(0,128, 255, 0.1);
 }
 .maincontent, .contentinfo {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.500);
 }
 .contentinfo h1 {
     color: white;
@@ -33,7 +38,7 @@ body {
 }
 .title2 h1 {
 	background:rgba(0,0,0,0.3);
-	color:#0080FF;
+	color:#ffffff;
 }
 .title2 h2 {
     background:rgba(0,0,0,0.3);
@@ -58,4 +63,12 @@ body {
 }
 .tabcontent {
     background-color: rgba(0,0,0,0.2);
+}
+.backbutton button:hover:not(.active) {
+    background-color:rgba(0,0,0,0.6);
+    color: #FF8000;
+}
+.backbutton button {
+    background-color:rgba(0,0,0,0.2);
+    color: white;
 }
